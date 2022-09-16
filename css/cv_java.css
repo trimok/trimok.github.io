@@ -1,0 +1,132 @@
+
+#page
+{
+    display: flex;
+    flex-direction: column;
+}
+#en_tete
+{
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-end;
+    background-color: rgb(116,81,234);
+}
+#en_tete_gauche
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#en_tete_droit
+{
+  display: flex;
+  justify-content: center;
+}
+#nom
+{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    width:  280px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#metier
+{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #3fd59c;
+    width:  280px;
+    margin-top: 0px;
+    padding-top: 0px;    
+}
+#presentation
+{
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    width:  450px;
+}
+#photo_developpeur
+{ 
+      border-radius : 50% / 50%
+}
+section.sectionglobale
+{
+    display: flex;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+section.sectionvertical
+{
+    display: flex;
+    flex-direction: column;
+}
+h2
+{
+    color: blue;
+}
+#pied_de_page
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #083b67;
+    align-content: flex-start;
+    /*
+    justify-content: center;
+    align-items:  center;
+    */
+}
+#retrouver{
+    font-size:  2.5em;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;    
+}
+#idee{
+    font-size:  2em;
+    background-color: #3fd59c;
+}
+#contact{
+    margin-left: 20px;
+    font-size:  2em;
+    color: white;
+}
+#idee_contact{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;    
+    margin-left: 100px;
+}
+#logos{
+    margin-left: 100px;
+}    
+.entreprise
+{
+    background-color: #3fd59c;
+}
+@media screen and (max-width: 700px)
+{
+    #en_tete
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    section.sectionglobale
+    {
+        flex-direction: column;
+    }
+    #design
+    {
+        display: none;
+    }
+}
+.hw3c
+{
+    display: none;
+}
